@@ -199,7 +199,7 @@ function renderFooter() {
     el.innerHTML = `
         <div class="container footer-grid">
             <div>
-                <img src="images/logo.png" class="footer-logo" alt="CDRAustralia.Org">
+                <img src="logo.png" class="footer-logo" alt="CDRAustralia.Org">
                 <p>${f.aboutHtml}</p>
             </div>
             <div>
