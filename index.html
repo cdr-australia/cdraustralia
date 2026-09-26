@@ -1,2 +1,91 @@
-<h1>CDRAustralia.Org Reviews</h1>
-<p>Read the feedacks of clients of CDRAustralia.Org.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDR & Skills Assessment Report Writers | CDRAustralia.Org</title>
+    <meta name="description" content="CDRAustralia.Org prepares CDR, KA02, RPL, NER and AACA reports for engineers seeking skilled migration to Australia, New Zealand, Canada and more. Free consultation.">
+    <meta name="keywords" content="CDR Writing Services, Engineers Australia, CDR Report, KA02, RPL, NER, AACA, IEPNG, Engineering Migration">
+    <link rel="icon" href="favicon.ico?v=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Almost everything below is an empty mount point. -->
+    <!-- script.js reads siteData and builds the actual content into these containers on load. -->
+
+    <div id="progress-bar"></div>
+
+    <div id="topbar-mount"></div>
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#top" class="logo">
+                <img src="logo.png" alt="CDRAustralia.Org logo">
+                <div>
+                    <h2>CDRAustralia.Org</h2>
+                    <span>Engineering Report Writers</span>
+                </div>
+            </a>
+            <nav id="navbar-mount"></nav>
+            <a href="#OrderNow" onclick="alert('Please fill the form first')" class="quote-btn">Free Quote</a>
+            <button id="mobile-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div id="mobile-menu-mount"></div>
+    </header>
+
+    <section class="hero" id="top">
+        <div class="container hero-content" id="hero-mount"></div>
+    </section>
+
+    <section class="services section" id="services">
+        <div class="container" id="services-mount"></div>
+    </section>
+
+    <section class="why-us section" id="about">
+        <div class="container why-grid" id="about-mount"></div>
+    </section>
+
+    <section class="process section" id="process-mount-section">
+        <div class="container" id="process-mount"></div>
+    </section>
+
+    <section class="cta" id="cta-mount"></section>
+
+    <section class="contact section" id="contact">
+        <div class="container" id="contact-mount">
+            <!-- The EmailMeForm embed is left as real markup rather than JS-generated,
+                 since third-party embed scripts need to exist in the page at parse time
+                 to reliably initialize — everything around it is still built by JS. -->
+            <div class="contact-grid">
+                <div class="contact-info" id="contact-info-mount"></div>
+                <div class="contact-form" id="OrderNow">
+                    <script src="https://www.emailmeform.com/builder/forms/jsform/3SOp01XrtfQ5CUbvaks9H" type="text/javascript"></script>
+                    <form id="contactForm" style="display:none;">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="text" name="country" placeholder="Country">
+                        <input type="text" name="discipline" placeholder="Engineering Discipline">
+                        <textarea name="message" rows="6" placeholder="Tell us about your requirements"></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-mount"></footer>
+
+    <a href="https://wa.me/+61291917405" class="whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp us">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button id="topBtn" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
